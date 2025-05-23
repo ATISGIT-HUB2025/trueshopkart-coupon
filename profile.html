@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Trueshop Kart - Coupons</title>
+    <!-- Favicon Icon -->
+    <link rel="icon" type="image/png" href="images/logo.png" />
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Material Design Icons -->
+    <link
+      href="vendor/icons/css/materialdesignicons.min.css"
+      media="all"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Select2 CSS -->
+    <link href="vendor/select2/css/select2-bootstrap.css" />
+    <link href="vendor/select2/css/select2.min.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="vendor/icofont/icofont.min.css" rel="stylesheet" />
+    <!-- Owl Carousel -->
+    <!-- Owl Carousel CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+  </head>
+  <body>
+    <div class="page-header section-rotate position-relative inner-header">
+      <section class="middle-nav">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-none p-0">
+          <div class="container">
+            <a class="navbar-brand" href="index.html">
+              <img class="img-fluid" src="images/logo.png" />
+            </a>
+
+            <div class="dropdown ml-auto">
+              <a
+                class="navbar-brand dropdown-toggle font-sm"
+                href="#"
+                id="userDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <img class="img-fluid rounded-circle" src="images/user.svg" />
+                Suraj Jamdade
+              </a>
+              <div
+                class="dropdown-menu dropdown-menu-right"
+                aria-labelledby="userDropdown"
+              >
+                <a class="dropdown-item" href="profile.html">
+                  <i class="icofont-ui-user"></i>&nbsp; Profile
+                </a>
+
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item text-danger" href="login.html">
+                  <i class="icofont-logout"></i>&nbsp; Logout
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </section>
+    </div>
+    <section class="user-panel-body py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-sm-4">
+            <div class="user-panel-body-left">
+              <div class="bg-white rounded p-4 mb-4 text-center shadow-sm">
+                <img
+                  class="mb-3 mt-2 user-info-img"
+                  alt="Generic placeholder image"
+                  src="images/user.svg"
+                />
+                <h6 class="text-black mb-3">Suraj Jamdade</h6>
+                <p class="m-0">
+                  <a href="" class="">suraj@gmail.com</a>
+                </p>
+                <p class="mb-3">+91 9090909090</p>
+                <button type="button" class="btn btn-dark btn-block">
+                  <i class="icofont-logout"></i> Logout
+                </button>
+              </div>
+              <div
+                class="user-panel-sidebar-link mb-4 bg-white rounded shadow-sm overflow-hidden"
+              >
+                <a href="#mc"><i class="icofont-ticket"></i> My Coupans</a>
+                <a href="#md"><i class="icofont-wallet"></i> My Wallet</a>
+                <a href="#ps"
+                  ><i class="icofont-settings-alt"></i> Profile & Settings</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-9 col-sm-8">
+            <div class="user-panel-body-right">
+              <div id="mc" class="user-panel-tab-view mb-4">
+                <div class="shadow-sm rounded overflow-hidden mb-3">
+                  <div class="p-4 bg-white">
+                    <h5 class="mb-0">My Coupans</h5>
+                  </div>
+                </div>
+                <div>
+                  <div class="row">
+                    <div class="col-lg-6 col-sm-12 my-2">
+                      <div
+                        class="border-radius bg-white popular-stores-card-offer p-3"
+                        type="button"
+                        class="btn btn-primary"
+                        data-toggle="modal"
+                        data-target="#detailModal"
+                      >
+                        <div class="media align-items-center">
+                          <a href="#">
+                            <img
+                              alt="Generic placeholder image"
+                              src="images/4.jpg"
+                              class="mr-3"
+                            />
+                          </a>
+                          <div class="media-body">
+                            <div class="custom-card-body">
+                              <h6 class="mb-2 font-sm text-dark">
+                                <a class="text-black" href="#"
+                                  ><span class="text-danger">
+                                    Trueshop Kart </span
+                                  >Special Offer: Get Up to 30% Off
+                                </a>
+                              </h6>
+                              <!-- <p class="text-gray mb-2">United Kingdom</p> -->
+                            </div>
+                            <div class="custom-card-badge">
+                              <span class="badge badge-danger"
+                                ><i class="icofont-sale-discount"></i>
+                                OFFER</span
+                              >
+                              BFUT45xxxxxxx
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="md" class="user-panel-tab-view mb-2">
+                <div class="shadow-sm rounded overflow-hidden mb-3">
+                  <div class="p-4 bg-white">
+                    <h5 class="mb-0">My Wallet</h5>
+                  </div>
+                </div>
+                <div>
+                  <div class="row">
+                    <div class="col-xl-4 col-md-12 mb-4">
+                      <div
+                        class="bg-white p-4 shadow-sm text-center h-100 border-radius"
+                      >
+                        <div class="all-coupon">
+                          <img
+                            class="mb-3 user-cou-img"
+                            src="images/logo.png"
+                            alt="Generic placeholder image"
+                            style="object-fit: contain"
+                          />
+                          <h4 class="mt-1">Rs. 500.00</h4>
+                          <h6 class="mb-4 mt-3 pb-2 text-secondary">
+                            Trueshop Kart Special Offer: Get Up to 30% Off
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="ps" class="user-panel-tab-view mb-4">
+                <div class="shadow-sm rounded overflow-hidden mb-3">
+                  <div class="p-4 bg-white">
+                    <h5 class="mb-0">Profile & Settings</h5>
+                  </div>
+                </div>
+                <div>
+                  <div class="row">
+                    <div class="col-xl-12 col-sm-12 mb-4">
+                      <div class="custom-card shadow-sm bg-white h-100">
+                        <div class="p-4">
+                          <form action="index.html">
+                            <div class="form-row">
+                              <div class="col">
+                                <div class="form-group">
+                                  <label class="mb-1"
+                                    >YOUR NAME
+                                    <small class="text-danger">*</small></label
+                                  >
+                                  <div
+                                    class="position-relative icon-form-control"
+                                  >
+                                    <input
+                                      placeholder="Suraj Jamdade"
+                                      type="text"
+                                      class="form-control"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="form-group">
+                                  <label class="mb-1"
+                                    >YOUR EMAIL ADDRESS
+                                    <small class="text-danger">*</small></label
+                                  >
+                                  <div
+                                    class="position-relative icon-form-control"
+                                  >
+                                    <input
+                                      placeholder="suraj@gmail.com"
+                                      type="text"
+                                      class="form-control"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="form-row">
+                              <div class="col">
+                                <div class="form-group">
+                                  <label class="mb-1"
+                                    >YOUR PHONE NUMBER
+                                    <small class="text-danger">*</small></label
+                                  >
+                                  <div
+                                    class="position-relative icon-form-control"
+                                  >
+                                    <input
+                                      placeholder="+91 909090909"
+                                      type="text"
+                                      class="form-control"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="form-group">
+                                  <label class="mb-1"
+                                    >Password
+                                    <small class="text-danger">*</small></label
+                                  >
+                                  <div
+                                    class="position-relative icon-form-control"
+                                  >
+                                    <input
+                                      placeholder=""
+                                      type="password"
+                                      class="form-control"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="form-row">
+                              <div class="col">
+                                <div class="form-group">
+                                  <label class="mb-1"
+                                    >New Password
+                                    <small class="text-danger">*</small></label
+                                  >
+                                  <div
+                                    class="position-relative icon-form-control"
+                                  >
+                                    <input
+                                      placeholder=""
+                                      type="password"
+                                      class="form-control"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="form-group">
+                                  <label class="mb-1"
+                                    >Confirm Password
+                                    <small class="text-danger">*</small></label
+                                  >
+                                  <div
+                                    class="position-relative icon-form-control"
+                                  >
+                                    <input
+                                      placeholder=""
+                                      type="password"
+                                      class="form-control"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="d-flex align-items-center mt-4">
+                              <button
+                                class="btn btn-info text-uppercas"
+                                type="submit"
+                              >
+                                Update
+                              </button>
+                              <label class="m-0 pl-4 text-black-50"
+                                >We'll get back to you in 1-2 business days.
+                              </label>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-4 bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12">
+            <div
+              class="d-flex align-items-center justify-content-between small flex-wrap"
+              style="gap: 10px"
+            >
+              <p class="m-0">
+                Copyright © 2025 &nbsp;
+                <span class="text-warning">Trueshop Kart</span> - All Rights
+                Reserved
+              </p>
+              <p class="m-0">
+                <a href="privacy-policy.html" class="text-white"
+                  >Privacy Policy</a
+                >
+                &nbsp; · &nbsp;
+                <a href="terms-conditions.html" class="text-white"
+                  >Terms &amp; Conditions</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap core JavaScript -->
+    <script
+      data-cfasync="false"
+      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script
+      src="vendor/jquery/jquery.min.js"
+      type="7674d7e1df3201ac64523694-text/javascript"
+    ></script>
+    <script
+      src="vendor/bootstrap/js/bootstrap.bundle.min.js"
+      type="7674d7e1df3201ac64523694-text/javascript"
+    ></script>
+    <!-- select2 Js -->
+    <script
+      src="vendor/select2/js/select2.min.js"
+      type="7674d7e1df3201ac64523694-text/javascript"
+    ></script>
+    <!-- Owl Carousel -->
+    <script
+      src="vendor/owl-carousel/owl.carousel.js"
+      type="7674d7e1df3201ac64523694-text/javascript"
+    ></script>
+    <!-- Custom -->
+    <script
+      src="js/custom.js"
+      type="7674d7e1df3201ac64523694-text/javascript"
+    ></script>
+    <script
+      src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+      data-cf-settings="7674d7e1df3201ac64523694-|49"
+      defer
+    ></script>
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
+      data-cf-beacon='{"rayId":"94436f8739ae5724","version":"2025.4.0-1-g37f21b1","r":1,"token":"dd471ab1978346bbb991feaa79e6ce5c","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}}}'
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
