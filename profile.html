@@ -101,6 +101,7 @@
               >
                 <a href="#mc"><i class="icofont-ticket"></i> My Coupans</a>
                 <a href="#md"><i class="icofont-wallet"></i> My Wallet</a>
+                <a href="#coupon"><i class="icofont-plus"></i> Create Coupon</a>
                 <a href="#ps"
                   ><i class="icofont-settings-alt"></i> Profile & Settings</a
                 >
@@ -187,6 +188,159 @@
                   </div>
                 </div>
               </div>
+              <div id="coupon" class="user-panel-tab-view mb-4">
+                <div class="shadow-sm rounded overflow-hidden mb-3">
+                  <div class="p-4 bg-white">
+                    <h5 class="mb-0">Create Coupon</h5>
+                  </div>
+                </div>
+                <div>
+                  <div class="row">
+                    <div class="col-xl-12 col-sm-12 mb-4">
+                      <div class="custom-card shadow-sm bg-white h-100">
+                        <div class="p-4">
+                          <form action="index.html">
+                            <div class="form-row">
+                              <div class="col">
+                                <div class="form-group">
+                                  <label class="mb-1"
+                                    >Company Name
+                                    <small class="text-danger">*</small></label
+                                  >
+                                  <input
+                                    placeholder="Trueshop Kart"
+                                    type="text"
+                                    class="form-control"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                            <div class="form-row">
+                              <div class="col">
+                                <div class="form-group">
+                                  <label class="mb-1"
+                                    >Coupon Code
+                                    <small class="text-danger">*</small></label
+                                  >
+                                  <input
+                                    placeholder="SAVE20"
+                                    type="text"
+                                    class="form-control"
+                                  />
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="form-group">
+                                  <label class="mb-1"
+                                    >Discount Type
+                                    <small class="text-danger">*</small></label
+                                  >
+                                  <select class="form-control">
+                                    <option value="percentage">
+                                      Percentage
+                                    </option>
+                                    <option value="flat">Flat</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="form-row">
+                              <div class="col">
+                                <div class="form-group">
+                                  <label class="mb-1"
+                                    >Discount Amount
+                                    <small class="text-danger">*</small></label
+                                  >
+                                  <input
+                                    placeholder="20"
+                                    type="number"
+                                    class="form-control"
+                                  />
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="form-group">
+                                  <label class="mb-1"
+                                    >Minimum Order Value</label
+                                  >
+                                  <input
+                                    placeholder="100"
+                                    type="number"
+                                    class="form-control"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="form-row">
+                              <div class="col">
+                                <div class="form-group">
+                                  <label class="mb-1"
+                                    >Valid From
+                                    <small class="text-danger">*</small></label
+                                  >
+                                  <input type="date" class="form-control" />
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="form-group">
+                                  <label class="mb-1"
+                                    >Valid To
+                                    <small class="text-danger">*</small></label
+                                  >
+                                  <input type="date" class="form-control" />
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="form-row">
+                              <div class="col">
+                                <div class="form-group">
+                                  <label class="mb-1"
+                                    >Max Redemptions
+                                    <small class="text-danger">*</small></label
+                                  >
+                                  <input
+                                    type="number"
+                                    class="form-control"
+                                    placeholder="e.g., 100"
+                                  />
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="form-group">
+                                  <label class="mb-1"
+                                    >Status
+                                    <small class="text-danger">*</small></label
+                                  >
+                                  <select class="form-control">
+                                    <option value="active">Active</option>
+                                    <option value="inactive">Inactive</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="d-flex align-items-center mt-4">
+                              <button
+                                class="btn btn-info text-uppercase"
+                                type="submit"
+                              >
+                                Create Coupon
+                              </button>
+                              <label class="m-0 pl-4 text-black-50"
+                                >Coupon will be saved in the system.</label
+                              >
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               <div id="ps" class="user-panel-tab-view mb-4">
                 <div class="shadow-sm rounded overflow-hidden mb-3">
                   <div class="p-4 bg-white">
