@@ -4410,3 +4410,67 @@ button:focus {
 .popular-stores-card-offer {
   border: 1px dotted #0000003b;
 }
+
+/* steeper */
+
+.stepper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.stepper .step {
+  flex: 1;
+  text-align: center;
+  position: relative;
+}
+.stepper .step::before {
+  content: attr(data-step);
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #ccc;
+  border-radius: 50%;
+  line-height: 30px;
+  color: white;
+  margin-bottom: 8px;
+}
+.stepper .step.active::before,
+.stepper .step.completed::before {
+  background-color: #17a2b8;
+}
+.stepper .step:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  right: -50%;
+  width: 100%;
+  height: 2px;
+  background-color: #ccc;
+  z-index: -1;
+}
+.stepper .step.completed:not(:last-child)::after {
+  background-color: #17a2b8;
+}
+.step-content {
+  display: none;
+}
+.step-content.active {
+  display: block;
+}
+
+.package-card {
+  cursor: pointer;
+  border: 2px solid #dee2e6;
+  border-radius: 1rem;
+  transition: 0.3s ease;
+}
+
+.package-card:hover {
+  border-color: #17a2b8;
+}
+
+.package-card.selected {
+  border-color: #17a2b8;
+  background-color: #d1f3f9;
+  box-shadow: 0 0 15px rgba(23, 162, 184, 0.3);
+}

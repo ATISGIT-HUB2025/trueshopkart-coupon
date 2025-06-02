@@ -798,28 +798,38 @@
                 09.15.2025
               </p>
               <div
-                class="bg-light border-radius mt-2"
+                class="bg-light border-radius mt-2 d-flex align-items-center justify-content-between"
                 style="border: 1px dotted #000"
               >
-                <p class="m-0 p-2 text-danger font-weight-bold">
+                <p class="m-0 p-2 text-danger font-weight-bold" id="copyText">
                   BFUT4578654390PYTR56
                 </p>
+                <button
+                  class="btn btn-sm btn-outline-secondary"
+                  onclick="copyToClipboard()"
+                >
+                  <i class="icofont-copy"></i>
+                </button>
               </div>
+
+              <script>
+                function copyToClipboard() {
+                  const text = document.getElementById("copyText").innerText;
+                  navigator.clipboard
+                    .writeText(text)
+                    .then(() => {
+                      alert("Copied to clipboard!");
+                    })
+                    .catch((err) => {
+                      alert("Failed to copy: " + err);
+                    });
+                }
+              </script>
             </div>
           </div>
           <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary btn-sm font-weight-bold"
-              data-dismiss="modal"
-            >
-              Close
-            </button>
-            <button
-              type="button"
-              class="btn btn-success btn-sm font-weight-bold"
-            >
-              Buy Now
+            <button type="button" class="btn btn-info btn-sm font-weight-bold">
+              Copy Code & Go To Store
             </button>
           </div>
         </div>

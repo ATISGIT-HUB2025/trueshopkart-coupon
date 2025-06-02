@@ -102,6 +102,7 @@
                 <a href="#mc"><i class="icofont-ticket"></i> My Coupans</a>
                 <a href="#md"><i class="icofont-wallet"></i> My Wallet</a>
                 <a href="#coupon"><i class="icofont-plus"></i> Create Coupon</a>
+                <a href="#refer"><i class="icofont-share"></i> Refer & Earn</a>
                 <a href="#ps"
                   ><i class="icofont-settings-alt"></i> Profile & Settings</a
                 >
@@ -135,6 +136,43 @@
                             />
                           </a>
                           <div class="media-body">
+                            <div
+                              class="d-flex justify-content-end"
+                              style="gap: 5px"
+                            >
+                              <a
+                                href=""
+                                class="text-secondary"
+                                style="
+                                  border: 1px solid #9e9a9a;
+                                  font-size: 8px;
+                                  border-radius: 10px;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items: center;
+                                  width: 20px;
+                                  height: 20px;
+                                "
+                              >
+                                <i class="icofont-edit"></i>
+                              </a>
+                              <a
+                                href=""
+                                class="text-danger"
+                                style="
+                                  border: 1px solid #9e9a9a;
+                                  font-size: 8px;
+                                  border-radius: 10px;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items: center;
+                                  width: 20px;
+                                  height: 20px;
+                                "
+                              >
+                                <i class="icofont-trash"></i>
+                              </a>
+                            </div>
                             <div class="custom-card-body">
                               <h6 class="mb-2 font-sm text-dark">
                                 <a class="text-black" href="#"
@@ -178,7 +216,7 @@
                             alt="Generic placeholder image"
                             style="object-fit: contain"
                           />
-                          <h4 class="mt-1">Rs. 500.00</h4>
+                          <h4 class="mt-1">💵 Rs. 50.00</h4>
                           <h6 class="mb-4 mt-3 pb-2 text-secondary">
                             Trueshop Kart Special Offer: Get Up to 30% Off
                           </h6>
@@ -196,147 +234,506 @@
                 </div>
                 <div>
                   <div class="row">
-                    <div class="col-xl-12 col-sm-12 mb-4">
-                      <div class="custom-card shadow-sm bg-white h-100">
-                        <div class="p-4">
-                          <form action="index.html">
-                            <div class="form-row">
-                              <div class="col">
-                                <div class="form-group">
-                                  <label class="mb-1"
-                                    >Company Name
-                                    <small class="text-danger">*</small></label
-                                  >
-                                  <input
-                                    placeholder="Trueshop Kart"
-                                    type="text"
-                                    class="form-control"
-                                  />
-                                </div>
-                              </div>
-                            </div>
-                            <div class="form-row">
-                              <div class="col">
-                                <div class="form-group">
-                                  <label class="mb-1"
-                                    >Coupon Code
-                                    <small class="text-danger">*</small></label
-                                  >
-                                  <input
-                                    placeholder="SAVE20"
-                                    type="text"
-                                    class="form-control"
-                                  />
-                                </div>
-                              </div>
-                              <div class="col">
-                                <div class="form-group">
-                                  <label class="mb-1"
-                                    >Discount Type
-                                    <small class="text-danger">*</small></label
-                                  >
-                                  <select class="form-control">
-                                    <option value="percentage">
-                                      Percentage
-                                    </option>
-                                    <option value="flat">Flat</option>
-                                  </select>
-                                </div>
-                              </div>
-                            </div>
-
-                            <div class="form-row">
-                              <div class="col">
-                                <div class="form-group">
-                                  <label class="mb-1"
-                                    >Discount Amount
-                                    <small class="text-danger">*</small></label
-                                  >
-                                  <input
-                                    placeholder="20"
-                                    type="number"
-                                    class="form-control"
-                                  />
-                                </div>
-                              </div>
-                              <div class="col">
-                                <div class="form-group">
-                                  <label class="mb-1"
-                                    >Minimum Order Value</label
-                                  >
-                                  <input
-                                    placeholder="100"
-                                    type="number"
-                                    class="form-control"
-                                  />
-                                </div>
-                              </div>
-                            </div>
-
-                            <div class="form-row">
-                              <div class="col">
-                                <div class="form-group">
-                                  <label class="mb-1"
-                                    >Valid From
-                                    <small class="text-danger">*</small></label
-                                  >
-                                  <input type="date" class="form-control" />
-                                </div>
-                              </div>
-                              <div class="col">
-                                <div class="form-group">
-                                  <label class="mb-1"
-                                    >Valid To
-                                    <small class="text-danger">*</small></label
-                                  >
-                                  <input type="date" class="form-control" />
-                                </div>
-                              </div>
-                            </div>
-
-                            <div class="form-row">
-                              <div class="col">
-                                <div class="form-group">
-                                  <label class="mb-1"
-                                    >Max Redemptions
-                                    <small class="text-danger">*</small></label
-                                  >
-                                  <input
-                                    type="number"
-                                    class="form-control"
-                                    placeholder="e.g., 100"
-                                  />
-                                </div>
-                              </div>
-                              <div class="col">
-                                <div class="form-group">
-                                  <label class="mb-1"
-                                    >Status
-                                    <small class="text-danger">*</small></label
-                                  >
-                                  <select class="form-control">
-                                    <option value="active">Active</option>
-                                    <option value="inactive">Inactive</option>
-                                  </select>
-                                </div>
-                              </div>
-                            </div>
-
-                            <div class="d-flex align-items-center mt-4">
-                              <button
-                                class="btn btn-info text-uppercase"
-                                type="submit"
-                              >
-                                Create Coupon
-                              </button>
-                              <label class="m-0 pl-4 text-black-50"
-                                >Coupon will be saved in the system.</label
-                              >
-                            </div>
-                          </form>
+                    <div class="col-12">
+                      <div class="custom-card shadow-sm bg-white p-4">
+                        <div class="stepper mb-4">
+                          <div class="step active" data-step="1">
+                            Select Package
+                          </div>
+                          <div class="step" data-step="2">&nbsp;KYC</div>
+                          <div class="step" data-step="3">
+                            &nbsp;Create Coupon
+                          </div>
                         </div>
+
+                        <form id="stepperForm" action="index.html">
+                          <div class="step-content active" id="step-1">
+                            <h5 class="mb-4">Select a Package</h5>
+                            <div class="row" id="packageCards">
+                              <!-- Basic -->
+                              <div class="col-md-6 mb-3">
+                                <div
+                                  class="card package-card text-center"
+                                  data-package="basic"
+                                >
+                                  <div class="card-body">
+                                    <h6 class="card-title text-primary mb-2">
+                                      Basic Plan
+                                    </h6>
+                                    <h3 class="text-info mb-3">Rs. 500</h3>
+                                    <ul class="list-unstyled text-muted">
+                                      <li class="mb-2">
+                                        <i
+                                          class="icofont-check text-success mr-2"
+                                        ></i>
+                                        10 Coupons
+                                      </li>
+                                      <li class="mb-2">
+                                        <i
+                                          class="icofont-check text-success mr-2"
+                                        ></i>
+                                        Valid for 30 Days
+                                      </li>
+                                      <li class="mb-2">
+                                        <i
+                                          class="icofont-check text-success mr-2"
+                                        ></i>
+                                        Email Support
+                                      </li>
+                                      <li class="mb-2">
+                                        <i
+                                          class="icofont-check text-success mr-2"
+                                        ></i>
+                                        Basic Analytics
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <!-- Premium -->
+                              <div class="col-md-6 mb-3">
+                                <div
+                                  class="card package-card text-center"
+                                  data-package="premium"
+                                >
+                                  <div class="card-body">
+                                    <h6 class="card-title text-primary mb-2">
+                                      Premium Plan
+                                    </h6>
+                                    <h3 class="text-info mb-3">Rs. 1000</h3>
+                                    <ul class="list-unstyled text-muted">
+                                      <li class="mb-2">
+                                        <i
+                                          class="icofont-check text-success mr-2"
+                                        ></i>
+                                        25 Coupons
+                                      </li>
+                                      <li class="mb-2">
+                                        <i
+                                          class="icofont-check text-success mr-2"
+                                        ></i>
+                                        Valid for 30 Days
+                                      </li>
+                                      <li class="mb-2">
+                                        <i
+                                          class="icofont-check text-success mr-2"
+                                        ></i>
+                                        Email Support
+                                      </li>
+                                      <li class="mb-2">
+                                        <i
+                                          class="icofont-check text-success mr-2"
+                                        ></i>
+                                        Basic Analytics
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <!-- Hidden input -->
+                            <input
+                              type="hidden"
+                              name="selected_package"
+                              id="selectedPackage"
+                              required
+                            />
+                          </div>
+
+                          <!-- Step 2: KYC -->
+                          <div class="step-content" id="step-2">
+                            <h5 class="mb-4">KYC Details</h5>
+
+                            <!-- Company Info -->
+                            <div class="form-row">
+                              <div class="col-md-6 mb-3">
+                                <label for="companyName"
+                                  >Company Name
+                                  <small class="text-danger">*</small></label
+                                >
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  id="companyName"
+                                  placeholder="e.g. ABC Pvt Ltd"
+                                  required
+                                />
+                              </div>
+                              <div class="col-md-6 mb-3">
+                                <label for="gstNo"
+                                  >GST Number
+                                  <small class="text-danger">*</small></label
+                                >
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  id="gstNo"
+                                  placeholder="22AAAAA0000A1Z5"
+                                  required
+                                />
+                              </div>
+                            </div>
+
+                            <div class="form-row">
+                              <div class="col-md-6 mb-3">
+                                <label for="contactNo"
+                                  >Company Contact No
+                                  <small class="text-danger">*</small></label
+                                >
+                                <input
+                                  type="tel"
+                                  class="form-control"
+                                  id="contactNo"
+                                  placeholder="e.g. 9876543210"
+                                  required
+                                />
+                              </div>
+                              <div class="col-md-6 mb-3">
+                                <label for="companyEmail"
+                                  >Company Email ID
+                                  <small class="text-danger">*</small></label
+                                >
+                                <input
+                                  type="email"
+                                  class="form-control"
+                                  id="companyEmail"
+                                  placeholder="email@company.com"
+                                  required
+                                />
+                              </div>
+                            </div>
+
+                            <!-- Aadhaar Details -->
+                            <div class="form-row">
+                              <div class="col-md-6 mb-3">
+                                <label for="aadhaarNo"
+                                  >Aadhaar Card Number
+                                  <small class="text-danger">*</small></label
+                                >
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  id="aadhaarNo"
+                                  placeholder="XXXX-XXXX-XXXX"
+                                  required
+                                />
+                              </div>
+                              <div class="col-md-6 mb-3">
+                                <label for="aadhaarName"
+                                  >Name on Aadhaar
+                                  <small class="text-danger">*</small></label
+                                >
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  id="aadhaarName"
+                                  placeholder="As per Aadhaar"
+                                  required
+                                />
+                              </div>
+                            </div>
+
+                            <div class="form-group mb-4">
+                              <label for="aadhaarImg"
+                                >Upload Aadhaar Card Image
+                                <small class="text-danger">*</small></label
+                              >
+                              <input
+                                type="file"
+                                class="form-control"
+                                id="aadhaarImg"
+                                accept="image/*"
+                                required
+                              />
+                            </div>
+
+                            <!-- PAN Details -->
+                            <div class="form-row">
+                              <div class="col-md-6 mb-3">
+                                <label for="panNo"
+                                  >PAN Card Number
+                                  <small class="text-danger">*</small></label
+                                >
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  id="panNo"
+                                  placeholder="ABCDE1234F"
+                                  required
+                                />
+                              </div>
+                              <div class="col-md-6 mb-3">
+                                <label for="panImg"
+                                  >Upload PAN Card Image
+                                  <small class="text-danger">*</small></label
+                                >
+                                <input
+                                  type="file"
+                                  class="form-control"
+                                  id="panImg"
+                                  accept="image/*"
+                                  required
+                                />
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Step 3: Create Coupon -->
+                          <div class="step-content" id="step-3">
+                            <h5 class="mb-4">Create Coupon</h5>
+
+                            <!-- Company Name -->
+                            <div class="form-row">
+                              <div class="col-md-12 mb-3">
+                                <label for="couponCompanyName"
+                                  >Company Name
+                                  <small class="text-danger">*</small></label
+                                >
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  id="couponCompanyName"
+                                  placeholder="Trueshop Kart"
+                                  required
+                                />
+                              </div>
+                            </div>
+
+                            <!-- Coupon Code and Discount Type -->
+                            <div class="form-row">
+                              <div class="col-md-6 mb-3">
+                                <label for="couponCode"
+                                  >Coupon Code
+                                  <small class="text-danger">*</small></label
+                                >
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  id="couponCode"
+                                  placeholder="SAVE20"
+                                  required
+                                />
+                              </div>
+                              <div class="col-md-6 mb-3">
+                                <label for="discountType"
+                                  >Discount Type
+                                  <small class="text-danger">*</small></label
+                                >
+                                <select
+                                  class="form-control"
+                                  id="discountType"
+                                  required
+                                >
+                                  <option value="percentage">Percentage</option>
+                                  <option value="flat">Flat</option>
+                                </select>
+                              </div>
+                            </div>
+
+                            <!-- Discount Amount and Min Order Value -->
+                            <div class="form-row">
+                              <div class="col-md-6 mb-3">
+                                <label for="discountAmount"
+                                  >Discount Amount
+                                  <small class="text-danger">*</small></label
+                                >
+                                <input
+                                  type="number"
+                                  class="form-control"
+                                  id="discountAmount"
+                                  placeholder="20"
+                                  required
+                                />
+                              </div>
+                              <div class="col-md-6 mb-3">
+                                <label for="minOrderValue"
+                                  >Minimum Order Value</label
+                                >
+                                <input
+                                  type="number"
+                                  class="form-control"
+                                  id="minOrderValue"
+                                  placeholder="100"
+                                />
+                              </div>
+                            </div>
+
+                            <!-- Valid From and Valid To -->
+                            <div class="form-row">
+                              <div class="col-md-6 mb-3">
+                                <label for="validFrom"
+                                  >Valid From
+                                  <small class="text-danger">*</small></label
+                                >
+                                <input
+                                  type="date"
+                                  class="form-control"
+                                  id="validFrom"
+                                  required
+                                />
+                              </div>
+                              <div class="col-md-6 mb-3">
+                                <label for="validTo"
+                                  >Valid To
+                                  <small class="text-danger">*</small></label
+                                >
+                                <input
+                                  type="date"
+                                  class="form-control"
+                                  id="validTo"
+                                  required
+                                />
+                              </div>
+                            </div>
+
+                            <!-- Max Redemptions and Status -->
+                            <div class="form-row">
+                              <div class="col-md-6 mb-3">
+                                <label for="maxRedemptions"
+                                  >Max Redemptions
+                                  <small class="text-danger">*</small></label
+                                >
+                                <input
+                                  type="number"
+                                  class="form-control"
+                                  id="maxRedemptions"
+                                  placeholder="e.g., 100"
+                                  required
+                                />
+                              </div>
+                              <div class="col-md-6 mb-3">
+                                <label for="couponStatus"
+                                  >Status
+                                  <small class="text-danger">*</small></label
+                                >
+                                <select
+                                  class="form-control"
+                                  id="couponStatus"
+                                  required
+                                >
+                                  <option value="active">Active</option>
+                                  <option value="inactive">Inactive</option>
+                                </select>
+                              </div>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <div class="d-flex align-items-center mt-4">
+                              <label class="m-0 ps-4 text-black-50">
+                                Coupon will be saved in the system.
+                              </label>
+                            </div>
+                          </div>
+
+                          <!-- Navigation Buttons -->
+                          <div class="d-flex justify-content-between mt-4">
+                            <button
+                              type="button"
+                              class="btn btn-secondary"
+                              id="prevBtn"
+                              disabled
+                            >
+                              Back
+                            </button>
+                            <button
+                              type="button"
+                              class="btn btn-info"
+                              id="nextBtn"
+                            >
+                              Next
+                            </button>
+                          </div>
+                        </form>
                       </div>
                     </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="refer" class="user-panel-tab-view mb-2">
+                <div class="shadow-sm rounded overflow-hidden mb-3">
+                  <div class="p-4 bg-white">
+                    <h5 class="mb-3">Refer & Earn</h5>
+                    <p class="text-muted">
+                      Share your referral code with friends and earn rewards
+                      when they join.
+                    </p>
+
+                    <!-- Invite by Email -->
+                    <div class="bg-light border rounded p-3 mb-3">
+                      <h6 class="mb-3">Invite a Friend via Email</h6>
+                      <div class="d-flex flex-column flex-md-row gap-2">
+                        <input
+                          type="email"
+                          class="form-control"
+                          placeholder="Email Address"
+                        />
+                        <button class="btn btn-outline-info">Invite</button>
+                      </div>
+                    </div>
+
+                    <!-- Share Referral Link -->
+                    <div class="bg-light border rounded p-3 mb-3">
+                      <h6 class="mb-3">Or Share Your Referral Link</h6>
+                      <div class="input-group">
+                        <input
+                          type="text"
+                          id="referralLink"
+                          class="form-control"
+                          value="https://yoursite.com/ref/BFUT4578654390PYTR56"
+                          readonly
+                        />
+                        <button
+                          class="btn btn-outline-info"
+                          onclick="copyReferralLink()"
+                        >
+                          Copy
+                        </button>
+                      </div>
+
+                      <!-- Social Media Buttons -->
+                      <div class="mt-3 d-flex gap-2 flex-wrap">
+                        <a
+                          href="https://api.whatsapp.com/send?text=Join%20me%20at%20OurSite!%20Use%20this%20referral%20link:%20https://yoursite.com/ref/BFUT4578654390PYTR56"
+                          target="_blank"
+                          class="btn btn-success btn-sm mx-2"
+                        >
+                          <i class="icofont-whatsapp"></i>
+                        </a>
+                        <a
+                          href="https://www.facebook.com/sharer/sharer.php?u=https://yoursite.com/ref/BFUT4578654390PYTR56"
+                          target="_blank"
+                          class="btn btn-primary btn-sm mx-2"
+                        >
+                          <i class="icofont-facebook"></i>
+                        </a>
+                        <a
+                          href="https://twitter.com/intent/tweet?text=Join%20me%20and%20get%20rewards!%20https://yoursite.com/ref/BFUT4578654390PYTR56"
+                          target="_blank"
+                          class="btn btn-info btn-sm"
+                        >
+                          <i class="icofont-twitter"></i>
+                        </a>
+                      </div>
+                    </div>
+
+                    <!-- JavaScript -->
+                    <script>
+                      function copyReferralLink() {
+                        const linkInput =
+                          document.getElementById("referralLink");
+                        navigator.clipboard
+                          .writeText(linkInput.value)
+                          .then(() => {
+                            alert("Referral link copied to clipboard!");
+                          })
+                          .catch(() => {
+                            alert("Failed to copy link.");
+                          });
+                      }
+                    </script>
                   </div>
                 </div>
               </div>
@@ -516,6 +913,68 @@
     </section>
 
     <!-- Bootstrap core JavaScript -->
+
+    <!-- Stepper JavaScript -->
+    <script>
+      const steps = document.querySelectorAll(".step");
+      const contents = document.querySelectorAll(".step-content");
+      const nextBtn = document.getElementById("nextBtn");
+      const prevBtn = document.getElementById("prevBtn");
+
+      let currentStep = 0;
+
+      function updateStepper() {
+        steps.forEach((step, i) => {
+          step.classList.toggle("active", i === currentStep);
+          step.classList.toggle("completed", i < currentStep);
+        });
+
+        contents.forEach((content, i) => {
+          content.classList.toggle("active", i === currentStep);
+        });
+
+        prevBtn.disabled = currentStep === 0;
+        nextBtn.textContent =
+          currentStep === steps.length - 1 ? "Create Coupon" : "Next";
+      }
+
+      nextBtn.addEventListener("click", () => {
+        if (currentStep < steps.length - 1) {
+          currentStep++;
+          updateStepper();
+        } else {
+          document.getElementById("stepperForm").submit();
+        }
+      });
+
+      prevBtn.addEventListener("click", () => {
+        if (currentStep > 0) {
+          currentStep--;
+          updateStepper();
+        }
+      });
+
+      updateStepper();
+    </script>
+
+    <script>
+      const cards = document.querySelectorAll(".package-card");
+      const hiddenInput = document.getElementById("selectedPackage");
+
+      cards.forEach((card) => {
+        card.addEventListener("click", () => {
+          // Remove selected class from all
+          cards.forEach((c) => c.classList.remove("selected"));
+
+          // Add selected to clicked
+          card.classList.add("selected");
+
+          // Store value in hidden input
+          hiddenInput.value = card.dataset.package;
+        });
+      });
+    </script>
+
     <script
       data-cfasync="false"
       src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
