@@ -814,10 +814,27 @@
                                     class="position-relative icon-form-control"
                                   >
                                     <input
+                                      id="passwordInput"
                                       placeholder=""
                                       type="password"
                                       class="form-control"
                                     />
+                                    <span
+                                      class="toggle-password"
+                                      onclick="togglePasswordVisibility()"
+                                      style="
+                                        position: absolute;
+                                        top: 50%;
+                                        right: 10px;
+                                        transform: translateY(-50%);
+                                        cursor: pointer;
+                                      "
+                                    >
+                                      <i
+                                        id="toggleIcon"
+                                        class="icofont-eye-blocked"
+                                      ></i>
+                                    </span>
                                   </div>
                                 </div>
                               </div>
@@ -834,10 +851,27 @@
                                     class="position-relative icon-form-control"
                                   >
                                     <input
+                                      id="passwordInput"
                                       placeholder=""
                                       type="password"
                                       class="form-control"
                                     />
+                                    <span
+                                      class="toggle-password"
+                                      onclick="togglePasswordVisibility()"
+                                      style="
+                                        position: absolute;
+                                        top: 50%;
+                                        right: 10px;
+                                        transform: translateY(-50%);
+                                        cursor: pointer;
+                                      "
+                                    >
+                                      <i
+                                        id="toggleIcon"
+                                        class="icofont-eye-blocked"
+                                      ></i>
+                                    </span>
                                   </div>
                                 </div>
                               </div>
@@ -851,10 +885,27 @@
                                     class="position-relative icon-form-control"
                                   >
                                     <input
+                                      id="passwordInput"
                                       placeholder=""
                                       type="password"
                                       class="form-control"
                                     />
+                                    <span
+                                      class="toggle-password"
+                                      onclick="togglePasswordVisibility()"
+                                      style="
+                                        position: absolute;
+                                        top: 50%;
+                                        right: 10px;
+                                        transform: translateY(-50%);
+                                        cursor: pointer;
+                                      "
+                                    >
+                                      <i
+                                        id="toggleIcon"
+                                        class="icofont-eye-blocked"
+                                      ></i>
+                                    </span>
                                   </div>
                                 </div>
                               </div>
@@ -957,6 +1008,22 @@
       updateStepper();
     </script>
 
+    <script>
+      function togglePasswordVisibility() {
+        const input = document.getElementById("passwordInput");
+        const icon = document.getElementById("toggleIcon");
+
+        if (input.type === "password") {
+          input.type = "text";
+          icon.classList.remove("fa-eye");
+          icon.classList.add("fa-eye-slash");
+        } else {
+          input.type = "password";
+          icon.classList.remove("fa-eye-slash");
+          icon.classList.add("fa-eye");
+        }
+      }
+    </script>
     <script>
       const cards = document.querySelectorAll(".package-card");
       const hiddenInput = document.getElementById("selectedPackage");
