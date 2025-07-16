@@ -794,15 +794,15 @@
               <p class="mb-0 mt-4 text-gray">
                 <i class="icofont-users-alt-4 text-danger mr-2"></i> 307 People
                 Used Today
-                <i class="ml-4 icofont-clock-time text-danger mr-2"></i> Ends
-                09.15.2025
+                <i class="ml-4 icofont-clock-time text-danger mr-2"></i> Ends :
+                10 Aug 2025
               </p>
               <div
                 class="bg-light border-radius mt-2 d-flex align-items-center justify-content-between"
                 style="border: 1px dotted #000"
               >
                 <p class="m-0 p-2 text-danger font-weight-bold" id="copyText">
-                  BFUT4578654390PYTR56
+                  BFUTXXXXXXXXXXXXXXXXX
                 </p>
                 <button
                   class="btn btn-sm btn-outline-secondary"
@@ -826,10 +826,60 @@
                 }
               </script>
             </div>
+            <div>
+              <div class="form-row">
+                <div class="col-md-6 mb-3">
+                  <label for="MPoints"
+                    >MPoints Value <small class="text-danger">*</small></label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="MPoints"
+                    placeholder="e.g. 20"
+                    disabled
+                    value="20"
+                  />
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="INR"
+                    >INR Value <small class="text-danger">*</small></label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="INR"
+                    placeholder="Rs.200"
+                    required
+                    disabled
+                    value="Rs.200"
+                  />
+                </div>
+              </div>
+
+              <div style="display: flex; justify-content: center">
+                <div style="width: 200px; height: 200px">
+                  <img
+                    src="images/qr.jpg"
+                    alt="qr-code"
+                    style="width: 100%; height: 100%; object-fit: contain"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
+
           <div class="modal-footer">
-            <button type="button" class="btn btn-info btn-sm font-weight-bold">
+            <button
+              type="button"
+              class="btn btn-info btn-sm font-weight-bold"
+              disabled
+              style="cursor: not-allowed"
+            >
               Copy Code & Go To Store
+            </button>
+            <button type="button" class="btn btn-info btn-sm font-weight-bold">
+              Buy Now
             </button>
           </div>
         </div>
